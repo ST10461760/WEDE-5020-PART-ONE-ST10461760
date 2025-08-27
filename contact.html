@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNICEF - Conact</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="brand">
+            <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=400&auto=format&fit=crop" alt="UNICEF logo placeholder"/>
+            <h1>UNICEF Community Initiative</h1>
+        </div>
+        <nav aria-label="Primary">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header> 
+  <main class="container">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you. Reach out using any of the details below.</p>
+    <section class="grid">
+        <article class="card"
+        <h3>Head Office</h3>
+        <p>123 Hope Street, Global City</p>
+        <p>Email:<a href="mailto:info@example.org"></a></p>
+        <p>Phone:<a href="tel:051789456">051789456</a></p>
+    </article>
+    <article class="card">
+        <h3>Follow</h3>
+        <p><a href="#"aria-label="Facebook"></a></p>
+        <p><a href="#"aria-label="Instagram">Instagram</a></p>
+        <p><a href="#"aria-label="Twitter">Twitter</a></p>
+    </article>
+    <article class="card">
+        <h3>Map (Static Image)</h3>
+        <img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?q=80&w=1200&auto=format&fit=crop" alt="Map placeholder"/>
+    </article>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+        <p>&copy; <span id="year"></span>UNICEF Community Initiative. Demo only.</p>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
